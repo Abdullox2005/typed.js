@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: rgba(18,253,209,1);
+    animation: color 12s infinite;
+    transition: all .5s ease;
+}
+@keyframes color {
+    0%{background-color: rgba(18,253,209,1);}
+    20%{background-color: rgb(241, 212, 13);}
+    40%{background-color: rgb(239, 101, 30);}
+    50%{background-color: rgb(246, 44, 44);}
+}
+h1 {
+    font-size: 5rem;
+}
+
